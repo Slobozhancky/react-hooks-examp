@@ -1,0 +1,27 @@
+.userRefWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    color: red;
+
+    ul {
+        height: 200px;
+        overflow: scroll;
+        list-style-type: none;
+
+        li {
+            width: 150px;
+            padding: 15px 10px;
+            border: 1px solid black;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+    }
+
+    button {
+        text-align: center;
+        border-radius: 5px;
+        padding: 15px 10px;
+    }
+}
